@@ -1,0 +1,58 @@
+Step 1) open the page 0
+Step 2) Find the Utility region sequence no(30) & Replace old code with new code in header text section.
+New Code:
+<style>
+.fa-star.change_color {
+    color: #ffff;
+}
+div#R6144135291438717 {
+    width:188px;
+    margin: 0 auto;
+}
+.utility-options i.fa.fa-table {
+    color: white;
+}
+.utility-options {
+    /*width: 117px ;*/
+    margin: 0 ;
+}
+div[data-title="Save As PDF"]:hover:before {
+    top: 80%;
+}
+.help{
+    margin:0
+}
+.d_search {
+    position: relative;
+    margin-left: -4px;
+}
+div.d_search[data-title]:hover:before {
+    margin-left: 17px;
+}
+.fancy_popup .ui-widget-content {
+    height: 450px !important;
+}
+</style>
+
+<script>
+    /*
+ var trend = $('#P0_TITLE').val();
+if(trend=='Stocking Dashboard' && trend=='Loyalty Dashboard')
+{
+$('.utility-options span.trend_icon').css('display','block');
+}
+else
+{
+$('.utility-options span.trend_icon').css('display','none');
+} */
+</script>
+
+<div class="utility-options">
+    <span data-title="Help">
+<button class="cm js-ignoreChange help  lto37822689891644406_0" type="button" id="HELP_BUTTON" aria-label="Help"><span class="t-Icon " aria-hidden="true"></span></button>
+        </span>
+  <span data-title="Bookmark"> <i class="fa change_color fa-star" aria-hidden="true" id="bookmark"></i> </span>  
+    <div class ="download-icons">
+        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+        <div class="utlity-options-menu">
+Step 3)Change Now.
